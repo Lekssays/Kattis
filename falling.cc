@@ -16,7 +16,7 @@ int main(void){
 	cin >> D;
 
 	for(long long n1 = 0; n1 < 200000; n1++){
-		long long sqr = n1*n1 + D;
+		long long sqr = n1 * n1 + D;
 		if(isPerfect(sqr)){
 			cout << n1 << " " << sqrt(sqr) << endl;
 			return 0;
