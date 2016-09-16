@@ -37,7 +37,7 @@ int main(void){
                     max = list[i].length();
                     
             int cnt;
-            for(int i=0; i < list.size(); i++){
+            for(int i = 0; i < list.size(); i++){
                 cnt = max - list[i].length();
                 while(cnt--)
                     printf(" ");
